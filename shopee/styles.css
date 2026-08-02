@@ -1,0 +1,70 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 550px;
+    position: relative;
+}
+
+.back-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.product-name {
+    position: absolute;
+    top: 30px;
+    left: 380px;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 5px;
+}
+
+.product-price {
+    position: absolute;
+    left: 380px;
+    bottom: 50px;
+    color: red;
+}
+
+.keyboard-img {
+    position: absolute;
+    top: 110px;
+    left: 350px;
+    width: 500px;
+}
+
+.add-cart {
+    background-color: rgb(255, 240, 240);
+    color: red;
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    right: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+    bottom: 1px;
+}
+
+.buy-now {
+    background-color: red;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    left: 60px;
+    cursor: pointer;
+    bottom: 1px;
+}
+
+body {
+    background-color: white;
+}
