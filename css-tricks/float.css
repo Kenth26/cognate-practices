@@ -1,0 +1,30 @@
+.container {
+    width: fit-content;
+    height: fit-content;
+    margin: 30px auto;
+    padding: 100px 30px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.container div {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    padding: 30px 25px;
+    float: right;
+    margin-right: 8px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 90px;
+    font-family: sans-serif;
+}
+
+.container p {
+    width: 750px;
+    line-height: 30px;
+    font-family: sans-serif;
+}

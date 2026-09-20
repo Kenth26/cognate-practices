@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    background-color: gray;
+    margin: 30px auto;
+    padding: 100px 150px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.container div {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 90px;
+    font-family: sans-serif;
+}
